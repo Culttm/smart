@@ -1,0 +1,56 @@
+.socials {
+  padding-left: 270px;
+  width: 523px;
+  height: 76px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+
+  .s-title{
+    color: #59c646;
+    font-size: 21px;
+    text-transform: uppercase;
+    position: absolute;
+    left: -1px;
+    top: 23px;
+  }
+
+  .b-share {
+    font: 86%/1.4545em Arial, sans-serif;
+    display: -moz-inline-box;
+    display: inline-block;
+    padding: 3px 4px 1px 10px !important;
+    vertical-align: middle;
+  }
+  .b-share__handle {
+    float: left;
+    height: 52px;
+    margin-right: 4px;
+    padding: 5px 0 5px 2px !important;
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none !important;
+  }
+  .b-share-icon {
+    float: left;
+    overflow: hidden;
+    padding: 0 !important;
+    vertical-align: top;
+    border: 0;
+  }
+
+  .b-share-icon_vkontakte{
+    @extend .sp-vk;
+  }
+  .b-share-icon_facebook{
+    @extend .sp-fb;
+  }
+  .b-share-icon_twitter{
+    @extend .sp-tw;
+  }
+  .b-share-icon_odnoklassniki{
+    @extend .sp-ok;
+  }
+}

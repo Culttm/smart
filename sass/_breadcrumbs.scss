@@ -1,0 +1,24 @@
+.breadcrumbs {
+  padding-top: 21px;
+  height: 63px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #59c646;
+  background: rgba(191, 191, 191, 0.28);
+  box-shadow: 0 1px 0 rgba(204, 204, 204, 0.25);
+
+  .sep {
+    background-color: #59c646;
+    border: 2px solid #59c646;
+    border-radius: 8px;
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    margin: 0 15px 0 11px;
+  }
+
+  span {
+    font-weight: 700;
+  }
+
+}

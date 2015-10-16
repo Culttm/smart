@@ -1,0 +1,49 @@
+.about-page {
+  background: image-url('about_project_bg.jpg') 50% -75px no-repeat;
+
+  h1 {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #59c646;
+    margin-bottom: 41px;
+  }
+
+  .block_foot {
+    background-color: transparent;
+  }
+
+  .wrapper {
+    margin: 74px 0 0 183px;
+    width: 560px;
+  }
+
+  .txt_box {
+    margin-bottom: 40px;
+  }
+
+  .smile_box {
+    color: #59c646;
+    background: image-url('ico_smile.png') 0 0 no-repeat;
+    padding: 0 0 0 56px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-left: -5px;
+    margin-bottom: 50px;
+    width: 415px;
+    .sbol {
+      font-weight: 900;
+    }
+  }
+
+  .what {
+    font-weight: 900;
+  }
+
+  .socials {
+    position: relative;
+    top: auto;
+    margin: 65px auto 144px;
+  }
+}

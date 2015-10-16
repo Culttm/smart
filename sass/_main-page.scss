@@ -1,0 +1,50 @@
+
+.main-page {
+  .block1 {
+    min-height: 636px;
+    background: image-url('main_block1_bg.jpg') top center no-repeat;
+    overflow: hidden;
+  }
+  .block1_main {
+    background: image-url('main_block1_bg2.jpg') top center no-repeat;
+    min-height: 636px;
+    .col_left {
+      width: 310px;
+      float: left;
+    }
+    .col_right {
+      width: 400px;
+      height: 448px;
+      float: right;
+      position: relative;
+      margin-right: -23px;
+      margin-top: 29px;
+    }
+    .main-title {
+      margin-top: 65px;
+      margin-bottom: 8px;
+      margin-left: 12px;
+    }
+    .main_prehead {
+      text-align: center;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .link_video {
+      display: block;
+      cursor: pointer;
+    }
+    .link_test {
+      display: block;
+      cursor: pointer;
+    }
+  }
+
+  .socials{
+    position: relative;
+    left: auto;
+    top: auto;
+    margin: 100px auto -100px;
+    z-index: 2;
+  }
+}
